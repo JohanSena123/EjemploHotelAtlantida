@@ -1,6 +1,6 @@
 
 div {
-    border: 1px solid;
+    border: 0px solid;
 }
 
 #Principal{
@@ -9,9 +9,36 @@ div {
     margin: 0 auto;
     padding: 2%;
     box-shadow: 4px 4px 4px black;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    height: 800px;
+    border-radius: 5%;
 }
 
 .General{
     background-color: bisque;
-    margin: 5%;
+    margin: 1%;
+
 }
+#Cuerpo_config{
+    background-color: aliceblue;
+    display: flex;
+    direction: row;
+    justify-content: space-around;
+    height: 2000px;
+    padding: 20px;
+    overflow: hidden;
+}
+.contenedores{
+    background-color: azure;
+    width: 45%;
+}
+#Encabezado{
+    height: 20%;
+}
+#Pie_de_pagina{
+    height: 20%;
+}
+
